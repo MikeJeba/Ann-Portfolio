@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Ann-Portfolio
+I am a dynamic and detail-oriented software engineer with a passion for crafting innovative, high-performance solutions. With deep expertise in Java, HTML, CSS, and JavaScript, I seamlessly bridge backend efficiency and frontend elegance.
+>>>>>>> 0b5a5d15874defd812fd4f361ed75bb3dbd938d8
