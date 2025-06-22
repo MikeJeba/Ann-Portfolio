@@ -1,5 +1,5 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiHtml5, SiCss3, SiJavascript, SiFirebase, SiC, SiPython, SiGithub, SiMysql, SiAndroidstudio, SiEclipseide, SiIntellijidea} from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiFirebase, SiC, SiGithub, SiMysql, SiAndroidstudio, SiEclipseide, SiIntellijidea} from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { motion } from 'framer-motion'
 
@@ -43,13 +43,6 @@ const Technologies = () => {
                className="p-4">
                 <RiReactjsLine className='text-7xl text-cyan-600' />
             </motion.div>
-            <motion.div
-               initial="initial"
-               animate="animate"
-               variants={iconVariants(3)}
-               className="p-4">
-                <SiMongodb className="text-7xl text-green-500" />
-            </motion.div>
             <motion.div 
                 initial="initial"
                 animate="animate"
@@ -78,13 +71,6 @@ const Technologies = () => {
                variants={iconVariants(6)} 
             className="p-4">
                 <SiC className="text-7xl text-blue-600" />
-            </motion.div>
-            <motion.div
-                initial="initial"
-                animate="animate"
-                variants={iconVariants(2.5)} 
-                className="p-4">
-                <SiPython className="text-7xl text-yellow-700" />
             </motion.div>
            
             <motion.div

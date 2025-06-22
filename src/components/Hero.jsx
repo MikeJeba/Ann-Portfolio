@@ -45,7 +45,7 @@ const Hero = () => {
                  className='pb-2 text-4xl tracking-tighter lg:text-8xl text-gray-800'>Ann Jeba Jovitha</motion.h2>
                 <motion.span
                    variants={childVariants}
-                className='bg-gradient-to-r from-gray-800 to-gray-800 bg-clip-text text-3xl tracking-tight text-transparent'>Software Developer</motion.span>
+                className='bg-gradient-to-r from-gray-800 to-gray-800 bg-clip-text text-3xl tracking-tight text-transparent'>Full-Stack Developer</motion.span>
                 <motion.p 
                    variants={childVariants}
                  className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-gray-800'>{HERO_CONTENT}         

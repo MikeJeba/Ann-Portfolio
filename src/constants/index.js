@@ -1,11 +1,15 @@
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
-//import project4 from "../assets/projects/project4.png";
-// import project5 from "../assets/projects/project5.png";
 
 
-export const HERO_CONTENT = `I am a dynamic and detail-oriented software engineer with a passion for crafting innovative, high-performance solutions. With deep expertise in Java, HTML, CSS, and JavaScript, I seamlessly bridge backend efficiency and frontend elegance. My mastery of Spring Boot powers robust server-side architectures, while my proficiency in ReactJS enables engaging and intuitive user interfaces. Whether building immersive experiences with the Vuforia Android SDK or architecting scalable data solutions with MongoDB, MySQL, SQL, and Firebase, I thrive on delivering excellence that empowers developers and drives impactful outcomes.`;
+export const HERO_CONTENT = `I’m an aspiring full-stack developer and current Software Engineering Intern at Impiger Technologies, building real-world web applications using React and TypeScript. With a strong interest in backend development, I’m actively growing my expertise in Java, Spring Boot, and software design principles.
+
+My journey combines front-end creativity and backend logic — from crafting responsive user interfaces in React to building secure APIs and mastering core Java fundamentals. I also enjoy exploring tools like Git, MySQL, and Firebase, and I'm passionate about writing clean, maintainable code that solves real problems.
+
+Right now, I’m focused on improving my Data Structures & Algorithms (DSA), multithreading in Java, and project-based learning. My goal is to become a confident backend developer with full-stack flexibility.
+What drives me: Curiosity, code quality, and the thrill of solving tough bugs!
+`;
 
 export const ABOUT_TEXT = '';
 
@@ -25,6 +29,13 @@ export const EXPERIENCES = [
     description: `Contributed to design and optimze prompts for generating linkedin inmail.`,
     point2:"Assisted in functional and usability testing of the mobile application, ensuring seamless user experience and bug-free functionality.",
     technologies: ["Python","Chatgpt","Web Scraping"],
+  }, {
+    year: "Feb 2025 - Persent",
+    role: "Software Engineer Intern",
+    company: "Impiger",
+    description: `Contributing to the development of web applications using React.js and TypeScript, focusing on creating clean, modular, and responsive UI components.`,
+    point2:"Implemented end-to-end workflows for certificate generation and renewal using EJBCA, handling secure communication between client and server using .p12 keystores and certificate-based encryption.",
+    technologies: ["Java","ReactJs","Typescript","Certificates"],
   },
 ];
 
@@ -40,14 +51,14 @@ export const PROJECTS = [
     github:"https://github.com/MikeJeba/AnnResort.git",
   },
   {
-    title: "Kidsapp",
+    title: "JSBook",
    image: project2,
     description:
-      "Built a KidsApp with a focus on learning addition, featuring dynamic question generation and a seamless, visually engaging interface.",
-    point2 : "Incorporated a feature to save scores in the database by prompting users for a username, ensuring a smooth and interactive experience.",
-    technologies: ["Html","CSS","Javascript","Java"],
-    live: "https://www.awesomescreenshot.com/video/35165431?key=5f4f081eaad064f5714a797fea760e87",
-    github: "https://github.com/MikeJeba/kidsapp-frontend.git",
+      "Developed a web-based code editor using React, TypeScript, and Monaco Editor, allowing real-time code editing and previewing of HTML/CSS/JS — inspired by CodePen. ",
+    point2 : "Published the core editor as an npm package for broader developer use.",
+    technologies: ["Typescript","ReactJs"],
+    live: "https://iavx-js-book-local-client.vercel.app/",
+    github: "https://github.com/MikeJeba/iavxJSBook",
   },
   {
     title: "Wity",
@@ -87,7 +98,7 @@ export const CONTACT = {
 
 export const EDUCATION = [
   {
-    year: "2021 - Present",
+    year: "2021 - 2025",
     std: "B.E - Computer Science",
     marks: "8.9 GPA",
     institute: "Francis Xavier Engineering College",
